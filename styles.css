@@ -1,0 +1,48 @@
+body{     
+  font-family: 'Roboto', sans-serif;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20vh;
+}
+
+.input {
+  color: grey;
+  border-radius: 25px;
+  border: 2px solid grey; 
+  width: 200px;
+  height: 25px;
+  margin-right: 10px;
+}
+
+button {
+  border-radius: 25px;
+  border: 2px solid grey; 
+  width:40px;
+  height: 25px;
+  color: grey;
+}
+
+a{
+  text-decoration:none;
+}
+
+#results {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.movie {
+  text-align: center;
+  display: inline-block;
+  margin: 10px;
+}
+
+img{
+  border-radius: 2%;
+}
