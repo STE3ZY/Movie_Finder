@@ -6,23 +6,36 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 20vh;
+  height: 80vh;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: top 0.5s ease-in-out;
+  z-index: 1;
+}
+
+.searchbar.active {
+  top: -350px;
 }
 
 .input {
+  padding-left: 20px;
+  font-size: 1.4em;
   color: grey;
   border-radius: 25px;
   border: 2px solid grey; 
-  width: 200px;
-  height: 25px;
+  width: 400px;
+  height: 45px;
   margin-right: 10px;
 }
 
 button {
+  font-size: 1.4em;
   border-radius: 25px;
   border: 2px solid grey; 
-  width:40px;
-  height: 25px;
+  width:60px;
+  height: 45px;
   color: grey;
 }
 
@@ -31,6 +44,8 @@ a{
 }
 
 #results {
+  position: relative;
+  top: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
