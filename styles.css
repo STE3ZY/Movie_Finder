@@ -1,5 +1,11 @@
 body{     
   font-family: 'Roboto', sans-serif;
+  background-image: url(./Images/bg.jpg);
+  background-position: center;
+  background-size: cover;
+	background-repeat: no-repeat;
+  background-attachment: fixed;
+
 }
 
 .searchbar {
@@ -78,6 +84,8 @@ a{
 }
 
 .movie {
+  background-color: black;
+  color: aliceblue;
   text-align: center;
   display: inline-block;
   margin: 10px;
